@@ -1,35 +1,17 @@
 # Curved Lane Detection for Self Driving Cars | OpenCV Python
 
+## Requirements
+1. openCV
+2. numpy
+3. pickle
 
-[![Watch Video](https://github.com/murtazahassan/Curved-Lane-Detection/blob/master/CurvedLaneDetection%20(1).jpg)](https://youtu.be/-RuWTwDlot8)
 
-n this video we are going to learn how to detect curved lanes. We will detect not only the lanes but how much curvature is present in them so that we can use it in self driving applications.
+## How to Run
+1. Check the directory of video you want lane detection to run in `lane_detection.py`
+2. If using camera check the number or if using wifi security camera, check IP
+3. Run `lane_detection.py` from correct envieonment and python3
 
-Subscribe its FREE !!! 😂😂😂
-
-#CurvedLaneDetection
-
-#SelfDrivingCar
-
-#OpenCv
-
-Product Links:
-
-Recommend Webcam for Computer Vision:
-https://amzn.to/2MNtVKZ
-
-Budget Webcam:
-https://amzn.to/2ZP47Ug
-
-Links:
-OpenCV Python Complete Course:
-https://www.youtube.com/watch?v=CJXIjApHYVs&list=PLMoSUbG1Q_r_sc0x7ndCsqdIkL7dwrmNF
-
-How to install Opencv in Python: https://youtu.be/CJXIjApHYVs
-
-Joining Images: https://youtu.be/Wv0PSs0dmVI
-
-Color Detection: https://youtu.be/Tj4zEX_pdUg
-
-Contours: https://youtu.be/Fchzk1lDt7Q
+## Bugs and fixes
+1. No optimization
+2. Have to create auto tuner for getting the threshold values
 
