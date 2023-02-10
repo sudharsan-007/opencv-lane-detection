@@ -19,7 +19,7 @@ By [Sudharsan Ananth](https://sudharsanananth.wixsite.com/sudharsan)
 This Repository consists of code to estimate Lane curvature from front view images captured from a car. The code uses openCV library to process the image and overlay the output. This can be implemented in real time using a live camera feed by changing `cameraFeed=True`
 
 ### Working video
-![Output](assets/output.gif)
+![Output](assets/demo.gif)
 
 ## Dependencies 
 
