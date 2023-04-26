@@ -17,7 +17,8 @@ else:intialTracbarVals = [42,63,14,87]   #wT,hT,wB,hB
 
 
 if cameraFeed:
-    cap = cv2.VideoCapture("https://192.168.1.5:8080/video")
+    # cap = cv2.VideoCapture("https://192.168.1.5:8080/video") To capture from camera in raspberry pi sending frame to this port 
+    cap = cv2.VideoCapture(0)
     cap.set(3, frameWidth)
     cap.set(4, frameHeight)
 else:
